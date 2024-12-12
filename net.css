@@ -1,0 +1,250 @@
+*{
+    margin:0px ;
+    padding: 0px;
+}
+/** main-div  **/
+.main{
+    height: 680px;
+    width: 100vw;
+    background-image: url(background.jpg);
+    background-size: cover;
+    
+    
+}
+
+
+.main-outer{
+    height: 680px;
+    width: 100vw;
+    background-color:rgba(0, 0, 0, 0.625);
+}
+/**  nav  **/
+.nav{
+    height: 80px;
+    width: 100vw;
+    
+    padding: 24px;
+    
+}
+
+.nav-inner{
+    height: 62px;
+    display:flex;
+    margin-left: 20px;
+    background-image: url(logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+
+.icon{
+    height: 32px;
+    width: 120px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-weight: 900;
+    border: 0.1px solid rgba(255, 255, 255, 0.442);
+   position: static;
+    margin-left: 70%;
+    margin-top:10px;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.588);
+
+
+} 
+.sign{
+    height: 32px;
+    color: white;
+    font-weight: 700;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    border-radius: 10%;
+    background-color: red; 
+    position:absolute
+    right: 12%;
+    margin-top:10px;
+    
+    
+
+} 
+
+.icon i{
+    margin-right: 5px;
+}
+
+
+.text{
+    height: 470px;
+    color: white;
+    width: 100vw;
+text-align: center;
+    
+    
+}
+
+.text h1{
+    font-size: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.text p{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 1.5rem;
+}
+
+.text h3{
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     padding-top: 35px;
+}
+.inpu{
+    margin-top: 40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:50px ;
+    width: 100vw;
+
+}
+ .started{
+    font-size: 1.4rem;
+    font-weight: 900;
+    height: 50px;
+    width: 150px;
+    color: white;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    border-radius: 5px;
+ }
+
+  .inpu input{
+    color: white;
+    border-radius: 5px;
+    background-color: #0001;
+    height: 50px;
+    font-size: 1.1rem;
+    width:30vw ;
+    padding-left: 10px;
+    border: 0.1px solid rgba(255, 255, 255, 0.525);
+
+  }
+   
+  .tv{
+    margin-top: 8px;
+    color: white;
+    background-color: black;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  body{
+    background-color: rgba(0, 0, 0, 0.644);
+  }
+  .box1 {
+    margin-top: 100px;
+    margin-left:30px ;
+    height: 25vh;
+    width: 50vw;
+  }
+
+  .box2 {
+    margin-top: 40px;
+    margin-left: 30px;
+    height: 40vh;
+    width: 45vw;
+    background-image: url(tv9.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .box1 h2{
+    font-size: 3.5rem;
+  }
+
+
+
+  .ques{
+    color: white;
+    margin-top: 5px;
+    height: 100vh;
+    width:100 vh;
+    background-color: black;
+  }
+
+  .ques h2{
+    padding-top: 35px;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .q{
+    margin-left: 10vw;
+    height: 60vh;
+    width: 100vw;
+  }
+
+  .q1{
+    margin-top: 6px;
+    display: flex;
+    height: 9vh;
+    width: 76vw;
+    background-color: rgba(157, 148, 148, 0.29);
+  }
+
+  .content{
+    font-size: 1.5rem;
+     padding-top: 15px;
+     padding-left: 10px;
+    height: 9vh;
+    width:90% ;
+  }
+
+  .q1 i{
+    padding-top: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .h-3{
+    font-size: 1.3rem;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+
+
+  .foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    color: white;
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+  }
+
+  .foot a{
+    color: white;
+    font-size: 1rem;
+  }
